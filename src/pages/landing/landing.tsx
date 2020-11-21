@@ -68,8 +68,8 @@ export default function Landing() {
           isFull ? styles["remove-graphics"] : ""
         }`}
       >
-        <h1 className="text-7xl font-bold pt-28  pl-14 ">
-          GRAPHICS <br /> DESIGNER
+        <h1 className="text-7xl font-bold pt-28  pl-14 w-4/5 ">
+          GRAPHICS DESIGNER
         </h1>
 
         {isGraphics ? (
