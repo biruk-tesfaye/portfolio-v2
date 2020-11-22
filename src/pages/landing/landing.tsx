@@ -55,7 +55,7 @@ export default function Landing() {
             </div>
           </>
         ) : (
-          <Link href="#">
+          <Link href="/about">
             <a className={`absolute bottom-7 right-0 font-bold pr-14`}>ABOUT</a>
           </Link>
         )}
