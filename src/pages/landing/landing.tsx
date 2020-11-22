@@ -93,6 +93,12 @@ export default function Landing() {
                 </a>
               </Link>
             </div>
+
+            <div className={`${styles["image-container-icon"]}`}>
+              <div className={`${styles["img-figma"]}`}></div>
+              <div className={`${styles["img-xd"]}`}></div>
+              <div className={`${styles["img-ai"]}`}></div>
+            </div>
           </>
         ) : (
           <Link href="#">

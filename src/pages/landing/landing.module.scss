@@ -127,6 +127,7 @@
         display: none;
         width:0;
     }
+
     h1{
         text-align: center;
         width:100%;
@@ -142,5 +143,49 @@
 
 .a-button{
     padding: 10px 30px;
+}
+
+.image-container-icon {
+    width:352px;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    .img-figma {
+        position: absolute;
+        top:0;
+        right: 0;
+        width:200px;
+        height: 300px;
+        background-image: url('../../assets/images/figma.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    .img-ai {
+        position: absolute;
+        top:50%;
+        left: 57px;
+        width:95px;
+        height: 95px;
+        background-image: url('../../assets/images/xd.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain; 
+    }
+
+    .img-xd {
+        position: absolute;
+        bottom:0;
+        left: 0;
+        width:57px;
+        height: 57px;
+        background-image: url('../../assets/images/ai.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain; 
+    }
 }
 

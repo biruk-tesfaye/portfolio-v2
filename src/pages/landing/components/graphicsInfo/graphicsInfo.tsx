@@ -67,6 +67,12 @@ export default function GraphicsInfo() {
           </span>
         </div>
       </div>
+   
+   
+
+   <div className={`${styles['image-container-bg']}`}>
+
+   </div>
     </div>
   );
 }
