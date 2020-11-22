@@ -5,12 +5,12 @@
     &::before{
         content: '';
         position:absolute;
-        left:-27%;
+        left:0;
         top:0;
-        background-image: url('../../assets/images/leftImg.png');
+        background-image: url('../../assets/images/leftImg2.png');
         background-position: center;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         width:100%;
         height:100%;
        
@@ -42,9 +42,9 @@
     &::before{
         content: '';
         position:absolute;
-        right:-7%;
-        top:0;
-        background-image: url('../../assets/images/rightImg.png');
+        right:-5%;
+        top:4%;
+        background-image: url('../../assets/images/rightimg2.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -81,13 +81,17 @@
     background-size: contain;
     width: calc(512px/2);
     height: calc(512px/2);
-    z-index: 1;
+    z-index: 99;
     .arrow-left{
         position: absolute;
         bottom: 30%;
         left: 50%;
         color: $accent;
         transform: translate(-50%,50%);
+
+        &:hover{
+            cursor: pointer;
+        }
     }   
     .arrow-right{
         position: absolute;
@@ -95,6 +99,10 @@
         left: 50%;
         transform: translate(-50%,-50%);
         color: $primary;
+
+        &:hover{
+            cursor: pointer;
+        }
     }
 }
 
