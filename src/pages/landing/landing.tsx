@@ -83,12 +83,22 @@ export default function Landing() {
             </div>
 
             <GraphicsInfo />
-          </>
-        ) : null}
 
-        <Link href="#">
-          <a className={`absolute bottom-7 font-bold pl-14`}>CONTACT</a>
-        </Link>
+            <div className={"text-center  pt-28  "}>
+              <Link href={"#"}>
+                <a
+                  className={`${styles["a-button"]}  rounded-sm bg-accent-700 text-primary-700`}
+                >
+                  Previous Works
+                </a>
+              </Link>
+            </div>
+          </>
+        ) : (
+          <Link href="#">
+            <a className={`absolute bottom-7 font-bold pl-14`}>CONTACT</a>
+          </Link>
+        )}
       </div>
     </div>
   );

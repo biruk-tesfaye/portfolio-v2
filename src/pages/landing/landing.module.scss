@@ -121,6 +121,7 @@
     transition: .3s all ease-in-out;
     width: 100%;
     z-index: 99;
+    // padding: 0 64px;
 
     &::before{
         display: none;
@@ -129,6 +130,7 @@
     h1{
         text-align: center;
         width:100%;
+        padding-right: 0;
     }
 }
 .remove-full {
@@ -139,7 +141,6 @@
 }
 
 .a-button{
-    padding: 15px 30px;
-
+    padding: 10px 30px;
 }
 

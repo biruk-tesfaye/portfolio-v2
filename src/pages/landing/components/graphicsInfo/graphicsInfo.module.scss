@@ -1,0 +1,9 @@
+@import '../../../../assets/styles/theme.scss';
+
+
+.grid-container {
+    display: grid;
+    column-gap: calc(0.75px * 16);
+    grid-template-columns: repeat(3,max-content);
+    // grid-template-columns: max-content max-content max-content;
+}
