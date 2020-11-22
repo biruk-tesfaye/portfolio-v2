@@ -85,7 +85,7 @@ export default function Landing() {
             <GraphicsInfo />
 
             <div className={"text-center  pt-28  "}>
-              <Link href={"#"}>
+              <Link href={"/graphics-works"}>
                 <a
                   className={`${styles["a-button"]}  rounded-sm bg-accent-700 text-primary-700`}
                 >
