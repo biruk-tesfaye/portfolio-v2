@@ -45,7 +45,7 @@ export default function Landing() {
             </div>
             <FullStackInfo />
             <div className={"text-center  pt-16  "}>
-              <Link href={"#"}>
+              <Link href={"/fullstack-works"}>
                 <a
                   className={`${styles["a-button"]}  rounded-sm bg-primary-700 text-accent-700`}
                 >
@@ -101,7 +101,7 @@ export default function Landing() {
             </div>
           </>
         ) : (
-          <Link href="#">
+          <Link href="/contact">
             <a className={`absolute bottom-7 font-bold pl-14`}>CONTACT</a>
           </Link>
         )}

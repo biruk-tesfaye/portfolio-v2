@@ -29,7 +29,7 @@ export default function Graphics() {
         <h1 className={`pt-16 w-full text-7xl font-bold text-center`}>
           GRAPHICS DSIGNING
         </h1>
-        <h2 className={`w-full text-3xl text-center pt-6`}>Previous works</h2>
+        <h2 className={`w-full text-3xl text-center pt-6`}>Previous work</h2>
 
         <div className={"pt-16"}>
           <div className={`grid grid-cols-2 gap-3`}>
@@ -177,6 +177,8 @@ export default function Graphics() {
           </div>
         </div>
       </div>
+   
+   
     </div>
   );
 }
