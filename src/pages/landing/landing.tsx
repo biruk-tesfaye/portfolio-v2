@@ -19,7 +19,7 @@ export default function Landing() {
         <BsArrowLeftShort
           onClick={() => setIsGraphics(true)}
           size={"5em"}
-          className={`${styles["arrow-left"]} `}
+          className={`${styles["arrow-left"]}`}
         />
       </div>
 
