@@ -50,7 +50,7 @@ export default function Landing() {
               <BsArrowLeftShort
                 onClick={() => setIsFull(false)}
                 size={"5em"}
-                className={`${styles["arrow-back-left"]} `}
+                className={`${styles["arrow-back-left"]} hover:cursor-pointer`}
               />
             </div>
             <FullStackInfo />
@@ -97,7 +97,7 @@ export default function Landing() {
             <div className={`${styles["arrow-back-right-box"]}`}>
               <BsArrowRightShort
                 size={"5em"}
-                className={`${styles["arrow-back-right"]}`}
+                className={`${styles["arrow-back-right"]} hover:cursor-pointer`}
                 onClick={() => setIsGraphics(false)}
               />
             </div>
