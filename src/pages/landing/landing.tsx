@@ -33,7 +33,7 @@ export default function Landing() {
       >
         <div className={`${styles["landing-img-left"]}`}>
           <Image
-            src={"/me/leftImg2.png"}
+            src={"/me/left.png"}
             alt="Picture of Biruk Tesfaye"
             width={800}
             height={1024}
@@ -82,7 +82,7 @@ export default function Landing() {
       >
         <div className={`${styles["landing-img-right"]}`}>
           <Image
-            src={"/me/rightImg2.png"}
+            src={"/me/right.png"}
             alt="Picture of Biruk Tesfaye"
             width={800}
             height={1024}
