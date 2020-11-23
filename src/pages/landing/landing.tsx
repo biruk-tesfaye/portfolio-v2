@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import GraphicsInfo from "./components/graphicsInfo/graphicsInfo";
 import FullStackInfo from "./components/fullstackInfo/fullstackInfo";
+import Image from "next/image";
 export default function Landing() {
   const [isGraphics, setIsGraphics] = useState(false);
   const [isFull, setIsFull] = useState(false);
@@ -30,6 +31,15 @@ export default function Landing() {
           isFull ? styles["apply-full"] : ""
         }`}
       >
+        <div className={`${styles["landing-img-left"]}`}>
+          <Image
+            src={"/me/leftImg2.png"}
+            alt="Picture of Biruk Tesfaye"
+            width={800}
+            height={1024}
+          />
+        </div>
+
         <h1 className="text-7xl font-bold text-right pt-28 pr-14 ">
           FULL STACK DEVELOPER
         </h1>
@@ -56,7 +66,9 @@ export default function Landing() {
           </>
         ) : (
           <Link href="/about">
-            <a className={`absolute bottom-7 right-0 font-bold pr-14`}>ABOUT</a>
+            <a className={`absolute bottom-7 right-0 font-bold pr-14 z-50`}>
+              ABOUT
+            </a>
           </Link>
         )}
       </div>
@@ -68,6 +80,14 @@ export default function Landing() {
           isFull ? styles["remove-graphics"] : ""
         }`}
       >
+        <div className={`${styles["landing-img-right"]}`}>
+          <Image
+            src={"/me/rightImg2.png"}
+            alt="Picture of Biruk Tesfaye"
+            width={800}
+            height={1024}
+          />
+        </div>
         <h1 className="text-7xl font-bold pt-28  pl-14 w-4/5 ">
           GRAPHICS DESIGNER
         </h1>
